@@ -1,0 +1,82 @@
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    /* Change the text color to white */
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+    /* Change the hover color to a lighter shade */
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+    /* Make the toggler icon white */
+}
+
+.custom-gap .nav-item {
+    margin-right: 4rem;
+    /* Adjust the value as needed */
+}
+
+.custom-gap .nav-item:last-child {
+    margin-right: 8rem;
+    /* Remove right margin for the last item */
+}
+
+
+.card-bottom {
+    position: absolute;
+    bottom: 30px;
+    width: 94%;
+}
+
+.card-info {
+    flex: 1;
+    text-align: center;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vr {
+    width: 2px;
+    height: 100px;
+    background-color: white;
+    opacity: 100%;
+}
+
+/* AboutUs page */
+.left-abt {
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    top: 96%;
+}
+
+.right-abt {
+    height: 90%;
+    width: 50%;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.abt-img {
+    left: 17%;
+    position: absolute;
+    top: 23%;
+    height: 370px;
+    width: 490px;
+}
+
+.abt-title {
+    position: absolute;
+    top: 25%;
+}
