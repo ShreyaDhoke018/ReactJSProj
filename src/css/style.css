@@ -1,7 +1,56 @@
+/* background */
+.background-title {
+    height: 15%;
+    width: 100%;
+    top: 20%;
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+
+.background-info {
+    height: 10%;
+    position: absolute;
+    top: 45%;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.background-button {
+    height: 10%;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.button-shop {
+    height: 65%;
+    width: 15%;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+}
+
 .navbar-brand,
 .navbar-nav .nav-link {
     color: white;
     font-size: 18px;
+    font-family: 'Exo 2', sans-serif;
     /* Change the text color to white */
 }
 
@@ -28,8 +77,9 @@
 
 .card-bottom {
     position: absolute;
-    bottom: 30px;
     width: 94%;
+    top: 90%;
+
 }
 
 .card-info {
@@ -41,6 +91,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .vr {
@@ -55,28 +106,107 @@
     height: 90%;
     width: 50%;
     position: absolute;
-    top: 96%;
+    top: 115%;
 }
 
 .right-abt {
     height: 90%;
     width: 50%;
     position: absolute;
-    top: 96%;
+    top: 115%;
     left: 50%;
     display: flex;
-    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .abt-img {
-    left: 17%;
+    left: 7%;
     position: absolute;
-    top: 23%;
-    height: 370px;
-    width: 490px;
+    top: 20%;
+    height: 60%;
 }
 
 .abt-title {
     position: absolute;
-    top: 25%;
+    top: 20%;
+}
+
+.abt-info {
+    height: 30%;
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 52%;
+}
+
+/* New in STore page */
+.left-new {
+    height: 45%;
+    width: 20%;
+    position: absolute;
+    top: 195%;
+    left: 4%
+}
+
+.new-info {
+    position: absolute;
+    top: 50%;
+}
+
+.new-checknow {
+    position: absolute;
+    top: 70%;
+}
+
+.right-new {
+    position: absolute;
+    height: 60%;
+    width: 70%;
+    top: 195%;
+    left: 26%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.new-img {
+    height: 75%;
+    width: 25%;
+}
+
+@media only screen and (max-width: 650px) {
+    .background-title {
+        font-size: 35px;
+    }
+
+    .button-shop {
+        width: 20%;
+    }
+
+    .card-bottom {
+        width: 80%;
+    }
+
+    .left-abt {
+        top: 150%;
+        width: 65%;
+    }
+
+    .right-abt {
+        top: 120%;
+        left: 10%;
+        height: 55%;
+    }
+
+    .abt-title {
+        top: 2%;
+    }
+
+    .abt-info {
+        width: 150%;
+        top: 40%;
+    }
 }

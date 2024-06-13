@@ -6,7 +6,7 @@ export default function Navbar(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-transparent ">
             <div className="container-fluid">
-                <a className="navbar-brand ms-5" href="/ "><strong>{props.title}</strong>
+                <a className="navbar-brand ms-5 fs-1" href="/ "><strong>{props.title}</strong>
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
